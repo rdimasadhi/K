@@ -27,7 +27,7 @@ document.getElementById('verificationName').addEventListener('submit', function(
     const errorMessage = document.getElementById('error-message');
 
     // Validasi nama
-    const validNames = ['Gemoy', 'Yasmine', 'Sayangku', 'Kanita', 'Cintaku', 'KANITA YASMINE AMIRA KANZA'];
+    const validNames = ['Naswak','Naswa', 'Bebebku', 'naswa salsabila', 'naswak', 'naswa'];
 
     // Jika nama tidak valid, tampilkan pesan error
     if (!validNames.includes(nameInput)) {
@@ -51,7 +51,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     if (isPartner !== 'yes') {
         Swal.fire({
             title: 'HAH? NGGENAH AE KON😒?, harus iya.',
-            text: 'Coba lagi dari awal.',
+            text: 'ULANGI DARI AWAL!',
             icon: 'warning',
         }).then(() => {
             // Reset form dan kembali ke step 1
@@ -65,7 +65,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika valid, tampilkan SweetAlert sukses dan jalankan animasi
     Swal.fire({
         title: 'Verifikasi berhasil!',
-        text: 'Semoga kamu suka ya sayang!',
+        text: 'Semoga kamu suka ya beb!',
         icon: 'success',
     }).then(() => {
         // Sembunyikan form verifikasi setelah sukses
